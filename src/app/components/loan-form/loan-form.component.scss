@@ -1,0 +1,31 @@
+form {
+    width: 100%;
+    margin: 20px 0px;
+}
+ion-range {
+    --bar-background: #dbdbdb;
+    --bar-background-active: #0096d5;
+    --knob-background: #0096d5;
+    --knob-size: 25px;
+}
+label{
+    color: #949494;
+}
+ion-label{
+    font-size: 18px;
+    font-weight: 450;
+}
+.rangeC{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.cInfo{
+    display: flex;
+    gap: 10px;
+}
+.cInfo div{
+    width: 50%;
+    border: 1.5px solid #e8e8e8;
+    border-radius: 4px;
+}

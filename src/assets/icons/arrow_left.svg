@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <clipPath id="clip-arrow_left">
+      <rect width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="arrow_left" clip-path="url(#clip-arrow_left)">
+    <path id="Path_173" data-name="Path 173" d="M-9828.742-10196.594a29.97,29.97,0,0,0,0-42.312l-204.969-204.969,204.969-205a29.9,29.9,0,0,0,0-42.25,29.838,29.838,0,0,0-42.25,0l-225.719,225.688a5.775,5.775,0,0,1-.437.438,29.9,29.9,0,0,0-8.719,21.125,29.843,29.843,0,0,0,8.719,21.125l.438.406,225.719,225.75a29.824,29.824,0,0,0,21.094,8.719A29.97,29.97,0,0,0-9828.742-10196.594Z" transform="translate(10218.867 10699.891)" fill="#bebebe"/>
+  </g>
+</svg>

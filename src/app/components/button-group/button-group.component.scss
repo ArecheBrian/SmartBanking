@@ -1,0 +1,16 @@
+.btnGroup{
+    margin-top: 10px;
+    gap: 10px;
+    display: flex;
+    width: 100%;
+}
+ion-button{
+    --background: #d9d9d9;
+    --color: white;  
+    --border-radius: 7px;
+    --padding-top: 10px;
+    --padding-bottom: 10px;
+    --box-shadow: none;
+    width: 50%;
+    height: 50px;
+}

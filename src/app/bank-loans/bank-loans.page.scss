@@ -1,0 +1,27 @@
+.cuato {
+    margin: 20px 0px;
+    background-color: #e8f0f8;
+    height: 5rem;
+    width: 15rem;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color: #525456;
+}
+
+.cText{
+    font-size: 25px;
+    color: #0d4e8e;
+}
+
+h3 {
+    margin: 0;
+}
+ion-toolbar{
+    --box-shadow: none ;
+    border: none;
+    background-color: white;
+}

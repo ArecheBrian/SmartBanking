@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <clipPath id="clip-notificacion">
+      <rect width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="notificacion" clip-path="url(#clip-notificacion)">
+    <g id="Group_4445" data-name="Group 4445" transform="translate(0 0)">
+      <g id="Group_456" data-name="Group 456" transform="translate(0 0)">
+        <g id="Group_1" data-name="Group 1">
+          <path id="Path_345" data-name="Path 345" d="M427.336,219.71c0-130.047-69.949-174.285-135.378-184.135,0-.661.128-1.343.128-2.132C292.086,17.048,277.568,4,259.851,4s-31.723,13.047-31.723,29.442a11.245,11.245,0,0,0,.124,2.138C162.7,45.573,92.342,89.943,92.342,219.987,92.342,371.631,54.633,387.876,4,430.519H515.663c-50.379-42.772-88.349-59.161-88.349-210.788Z" transform="translate(-4 -4)" fill="#bebebe"/>
+          <path id="Path_346" data-name="Path 346" d="M81.684,82.618c35.709,0,65.024-26.522,68.883-57.306H12.78C16.511,56.1,45.953,82.618,81.663,82.618Z" transform="translate(174.424 429.024)" fill="#bebebe"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
