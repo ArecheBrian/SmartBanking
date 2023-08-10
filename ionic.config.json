@@ -1,0 +1,7 @@
+{
+  "name": "smart-banking",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
