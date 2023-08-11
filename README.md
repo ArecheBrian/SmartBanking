@@ -12,7 +12,6 @@ https://github.com/ArecheBrian/SmartBanking/assets/121470677/17b3b1d6-f9fe-4446-
 </ul>
 <p><strong>pd:</strong> es la primera vez que trabajo con angular</p>
 <br/>
-<br/>
 <h2>inicializar la app</h2>
 
 1. Clone the repo
