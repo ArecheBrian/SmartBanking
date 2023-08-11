@@ -1,0 +1,96 @@
+{
+    "data": [
+        {
+            "tarjeta": "Visa Gold",
+            "img": "tdc_visa_gold.png",
+            "costo": {
+                "emision": 50000,
+                "adicional": 5000
+            },
+            "beneficios": [
+                "80% del límite disponible para retiro en efectivo.",
+                "Programa de doble acumulación Puntos",
+                "Plan de financiamiento.",
+                "Seguros opcionales.",
+                "Cuenta Protegida.",
+                "Seguro de Accidentes de Viaje."
+            ],
+            "requicitos": [
+                "elemento 1",
+                "elemento 2",
+                "elemento 3",
+                "elemento 4",
+                "elemento 5"
+            ]
+        },
+        {
+            "tarjeta": "Visa Clasica",
+            "img": "visa-classic-400x225.png",
+            "costo": {
+                "emision": 50000,
+                "adicional": 5000
+            },
+            "beneficios": [
+                "80% del límite disponible para retiro en efectivo.",
+                "Programa de doble acumulación Puntos",
+                "Plan de financiamiento.",
+                "Seguros opcionales.",
+                "Cuenta Protegida.",
+                "Seguro de Accidentes de Viaje."
+            ],
+            "requicitos": [
+                "elemento 6",
+                "elemento 7",
+                "elemento 8",
+                "elemento 9",
+                "elemento 10"
+            ]
+        },
+        {
+            "tarjeta": "Visa Platinum",
+            "img": "tarjeta-de-credito-Platino.png",
+            "costo": {
+                "emision": 50000,
+                "adicional": 5000
+            },
+            "beneficios": [
+                "80% del límite disponible para retiro en efectivo.",
+                "Programa de doble acumulación Puntos",
+                "Plan de financiamiento.",
+                "Seguros opcionales.",
+                "Cuenta Protegida.",
+                "Seguro de Accidentes de Viaje."
+            ],
+            "requicitos": [
+                "elemento 11",
+                "elemento 12",
+                "elemento 13",
+                "elemento 14",
+                "elemento 15"
+            ]
+        },
+        {
+            "tarjeta": "Visa Infinite",
+            "img": "tarjetas-plásticos-_infinite.png",
+            "costo": {
+                "emision": 50000,
+                "adicional": 5000
+            },
+            "beneficios": [
+                "80% del límite disponible para retiro en efectivo.",
+                "Programa de doble acumulación Puntos",
+                "Plan de financiamiento.",
+                "Seguros opcionales.",
+                "Cuenta Protegida.",
+                "Seguro de Accidentes de Viaje."
+            ],
+            "requicitos": [
+                "elemento 16",
+                "elemento 17",
+                "elemento 18",
+                "elemento 19",
+                "elemento 20"
+            ]
+        }
+    ]
+}

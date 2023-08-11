@@ -9,12 +9,7 @@
       
         <ion-card-content>
           <ul>
-            <li>80% del límite disponible para retiro en efectivo.</li>
-            <li>Programa de doble acumulación Puntos.</li>
-            <li>Plan de financiamiento.</li>
-            <li>Seguros opcionales.</li>
-            <li>Cuenta Protegida.</li>
-            <li>Seguro de Accidentes de Viaje.</li>
+            <li *ngFor="let cardData of cardData.beneficios">{{cardData}}</li>
           </ul>
         </ion-card-content>
       </div>
@@ -26,12 +21,7 @@
       
         <ion-card-content>
           <ul>
-            <li>Elemento 1</li>
-            <li>Elemento 2</li>
-            <li>Elemento 3</li>
-            <li>Elemento 4</li>
-            <li>Elemento 1</li>
-            <li>Elemento 2</li>
+            <li *ngFor="let cardData of cardData.requicitos">{{cardData}}</li>
           </ul>
         </ion-card-content>
       </div>  

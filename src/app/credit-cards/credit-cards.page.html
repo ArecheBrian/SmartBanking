@@ -8,9 +8,29 @@
 </ion-header>
 <ion-content [fullscreen]="true" class="ion-padding">
   <ion-grid>
-    <app-card></app-card>
-    <app-cards-info></app-cards-info>
-    <app-card-collection></app-card-collection>
+    <app-card [cardData]="currentCard"></app-card>
+    <app-cards-info [cardData]="currentCard"></app-cards-info>
+    <ion-row class="container">
+      <ion-grid>
+        <div class="ion-text-center">
+          <h3>Productos Relacionados</h3>
+        </div>
+        <ion-row>
+          <ion-col class="ioncol" (click)="changeCard(1)">
+            <img [src]="getImagePath('images/visa-classic-400x225.png')" alt="Mi Imagen" class="imgCard">
+            <p>Visa Clasica</p>
+          </ion-col>
+          <ion-col class="ioncol" (click)="changeCard(2)">
+            <img [src]="getImagePath('images/tarjeta-de-credito-Platino.png')" alt="Mi Imagen" class="imgCard">
+            <p>Visa Platinum</p>
+          </ion-col>
+          <ion-col class="ioncol" (click)="changeCard(3)">
+            <img [src]="getImagePath('images/tarjetas-plásticos-_infinite.png')" alt="Mi Imagen" class="imgCard">
+            <p>Visa Infinite</p>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-row>
     <app-button-group></app-button-group>
   </ion-grid>
 </ion-content>
