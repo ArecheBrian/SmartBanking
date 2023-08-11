@@ -1,9 +1,11 @@
-<ion-header [translucent]="true">
+<ion-header collapse="fade">
   <ion-toolbar>
-    <ion-title>creditCards</ion-title>
+    <div class="cIcons">
+      <img (click)="goHome()" [src]="getImagePath('icons/arrow_left.svg')" alt="Mi Imagen" class="bImg">
+      <img [src]="getImagePath('images/smart_banking.png')" alt="Mi Imagen" class="imgIcon">
+    </div>
   </ion-toolbar>
 </ion-header>
-
 <ion-content [fullscreen]="true" class="ion-padding">
   <ion-grid>
     <app-card></app-card>

@@ -1,13 +1,86 @@
-<ion-header [translucent]="true">
+<ion-header collapse="fade">
   <ion-toolbar>
-    <ion-title>stepperForm</ion-title>
+    <div class="cIcons">
+      <img (click)="goHome()" [src]="getImagePath('icons/arrow_left.svg')" alt="Mi Imagen" class="bImg">
+      <img [src]="getImagePath('images/smart_banking.png')" alt="Mi Imagen" class="imgIcon">
+    </div>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">stepperForm</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" class="ion-padding">
+  <ion-grid>
+    <ion-row class="dCol">
+      <div class="pBar">
+        <span class="active">1</span>
+        <span [ngClass]="{'active': step >= 2}">2</span>
+        <span [ngClass]="{'active': step >= 3}">3</span>
+        <span [ngClass]="{'active': step >= 4}">4</span>
+        <span [ngClass]="{'active': step >= 5}">5</span>
+        <ion-progress-bar [value]="progress"></ion-progress-bar>
+      </div>
+      <h4>Otener informacion de <br/> Tipo identificacion</h4>
+    </ion-row>
+  </ion-grid>
+  <form>
+    <!-- part 1 -->
+    <div class="fomrD" *ngIf="step == 1">
+      <ion-input shape="round" label="No identificacion:" labelPlacement="stacked" value="Cedula"></ion-input>
+      <a>Captura Tipo Identificacion</a>
+      <ion-input shape="round" label="No identificacion:" labelPlacement="stacked" ></ion-input>
+      <ion-input shape="round" label="1er Nombre:" labelPlacement="stacked" ></ion-input>
+      <ion-input shape="round" label="2do Nombre:" labelPlacement="stacked" ></ion-input>
+      <ion-input shape="round" label="1er Apellido:" labelPlacement="stacked" ></ion-input>
+      <ion-input shape="round" label="2do Apellido:" labelPlacement="stacked" ></ion-input>
+    </div>
+
+    <!-- part 2 -->
+    <div class="fomrD" *ngIf="step == 2">
+      <ion-input shape="round" label="No identificacion2:" labelPlacement="stacked" value="Cedula"></ion-input>
+      <a>Captura Tipo Identificacion</a>
+      <ion-input shape="round" label="No identificacion2:" labelPlacement="stacked" ></ion-input>
+      <ion-input shape="round" label="1er Nombre2:" labelPlacement="stacked" ></ion-input>
+      <ion-input shape="round" label="2do Nombre2:" labelPlacement="stacked" ></ion-input>
+      <ion-input shape="round" label="1er Apellido2:" labelPlacement="stacked" ></ion-input>
+      <ion-input shape="round" label="2do Apellido2:" labelPlacement="stacked" ></ion-input>
+    </div>
+
+    <!-- part3 -->
+    <div class="fomrD" *ngIf="step == 3">
+      <ion-input shape="round" label="No identificacion3:" labelPlacement="stacked" value="Cedula"></ion-input>
+      <a>Captura Tipo Identificacion</a>
+      <ion-input shape="round" label="No identificacion3:" labelPlacement="stacked" ></ion-input>
+      <ion-input shape="round" label="1er Nombre3:" labelPlacement="stacked" ></ion-input>
+      <ion-input shape="round" label="2do Nombre3:" labelPlacement="stacked" ></ion-input>
+      <ion-input shape="round" label="1er Apellido3:" labelPlacement="stacked" ></ion-input>
+      <ion-input shape="round" label="2do Apellido3:" labelPlacement="stacked" ></ion-input>
+    </div>
+
+    <!-- part 4 -->
+    <div class="fomrD" *ngIf="step == 4">
+      <ion-input shape="round" label="No identificacion4:" labelPlacement="stacked" value="Cedula"></ion-input>
+      <a>Captura Tipo Identificacion</a>
+      <ion-input shape="round" label="No identificacion4:" labelPlacement="stacked" ></ion-input>
+      <ion-input shape="round" label="1er Nombre4:" labelPlacement="stacked" ></ion-input>
+      <ion-input shape="round" label="2do Nombre4:" labelPlacement="stacked" ></ion-input>
+      <ion-input shape="round" label="1er Apellido4:" labelPlacement="stacked" ></ion-input>
+      <ion-input shape="round" label="2do Apellido4:" labelPlacement="stacked" ></ion-input>
+    </div>
+
+    <!-- partv 5 -->
+    <div class="fomrD" *ngIf="step == 5">
+      <ion-input shape="round" label="No identificacion5:" labelPlacement="stacked" value="Cedula"></ion-input>
+      <a>Captura Tipo Identificacion</a>
+      <ion-input shape="round" label="No identificacion5:" labelPlacement="stacked" ></ion-input>
+      <ion-input shape="round" label="1er Nombre5:" labelPlacement="stacked" ></ion-input>
+      <ion-input shape="round" label="2do Nombre5:" labelPlacement="stacked" ></ion-input>
+      <ion-input shape="round" label="1er Apellido5:" labelPlacement="stacked" ></ion-input>
+      <ion-input shape="round" label="2do Apellido5:" labelPlacement="stacked" ></ion-input>
+    </div>
+    <div class="gButton">
+      <ion-button *ngIf="step === 1" class="btnV">Cancelar</ion-button>
+      <ion-button (click)="prevStep()" *ngIf="step !== 1" class="btnV">Volver</ion-button>
+      <ion-button (click)="nextStep()" *ngIf="step !== 5" class="btnS">Seguir</ion-button>
+      <ion-button *ngIf="step == 5" class="btnS">subir</ion-button>
+    </div>
+  </form>
 </ion-content>

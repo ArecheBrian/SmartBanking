@@ -20,8 +20,18 @@ p{
 h3 {
     margin: 0;
 }
-ion-toolbar{
-    --box-shadow: none ;
-    border: none;
-    background-color: white;
+ion-header{
+    box-shadow: none;
+    padding: 10px 0px;
+  }
+.imgIcon{
+    height: 40px;
+}
+.bImg{
+    height: 20px;
+}
+.cIcons{
+    display: flex;
+    gap: 15px;
+    align-items: center;
 }

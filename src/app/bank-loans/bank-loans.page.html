@@ -1,6 +1,9 @@
-<ion-header>
+<ion-header collapse="fade">
   <ion-toolbar>
-    <ion-title>Header</ion-title>
+    <div class="cIcons">
+      <img (click)="goHome()" [src]="getImagePath('icons/arrow_left.svg')" alt="Mi Imagen" class="bImg">
+      <img [src]="getImagePath('images/smart_banking.png')" alt="Mi Imagen" class="imgIcon">
+    </div>
   </ion-toolbar>
 </ion-header>
 <ion-content [fullscreen]="true" class="ion-padding">
@@ -11,7 +14,7 @@
       </h3>
     </ion-row>
     <ion-row class="ion-justify-content-center">
-      <div class="cuato">
+      <div class="cuato  ion-text-center">
         <p><span class="cText">$18,537.06</span> <br/>cuota mensual</p>
       </div>
     </ion-row>

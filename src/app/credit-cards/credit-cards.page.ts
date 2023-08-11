@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-credit-cards',
@@ -7,7 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CreditCardsPage implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
+  getImagePath(imageName: string): string {
+    return `assets/${imageName}`;
+  }
+  goHome(){
+    this.router.navigate(['/'])
+  }
 
   ngOnInit() {
   }

@@ -13,7 +13,7 @@ import { StepperFormPage } from './stepper-form.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    StepperFormPageRoutingModule
+    StepperFormPageRoutingModule,
   ],
   declarations: [StepperFormPage]
 })

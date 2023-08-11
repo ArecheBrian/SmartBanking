@@ -25,3 +25,53 @@
 #container a {
   text-decoration: none;
 }
+ion-header{
+  box-shadow: none;
+  padding: 10px 0px;
+}
+.imgIcon{
+  height: 40px;
+}
+.bImg{
+  height: 20px;
+}
+.cIcons{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.test{
+  border-radius: 5px;
+  border: solid 1.5px #edf1f3;
+  height: 55px;
+  display: flex;
+  align-items: center;
+}
+.infoBtn{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+  align-items: center;
+  width: 100%;
+}
+.icons{
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgIconBtn{
+  height: 30px;
+}
+.btnGoup{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+.vertical-hr {
+  width: 1px; /* Ancho de la línea vertical */
+  height: 70%; /* Altura de la línea vertical */
+  background-color: #edf1f3; /* Color de la línea vertical */
+}

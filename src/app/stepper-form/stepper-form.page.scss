@@ -1,0 +1,94 @@
+.fomrD{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+}
+.pBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    position: relative;
+    margin-top: 10px;
+}
+span {
+    background: #d9d9d9;
+    font-size: 12px;
+    color: #d9d9d9;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+.active{
+    background-color: #0096d5;
+    color: white;
+}
+ion-progress-bar{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    --background: #d9d9d9;
+    --progress-background: #0096d5;
+}
+.dCol{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+ion-input {
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    --padding-start:20px;
+}
+a{
+    font-size: 12px;
+    font-weight: 450;
+    color: #4275a8;
+    text-decoration-line: underline;
+}
+.gButton{
+    margin-top: 80px;
+    display: flex;
+    gap: 5px;
+}
+.btnV{
+    --background: #c9c9c9;
+    --color: white;  
+    --border-radius: 3px;
+    --padding-top: 10px;
+    --padding-bottom: 10px;
+    --box-shadow: none;
+    width: 50%;
+    height: 40px;
+}
+.btnS{
+    --background: #0096d5;
+    --color: white;  
+    --border-radius: 3px;
+    --padding-top: 10px;
+    --padding-bottom: 10px;
+    --box-shadow: none;
+    width: 50%;
+    height: 40px;
+}
+ion-header{
+    box-shadow: none;
+    padding: 10px 0px;
+  }
+.imgIcon{
+    height: 40px;
+}
+.bImg{
+    height: 20px;
+}
+.cIcons{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
