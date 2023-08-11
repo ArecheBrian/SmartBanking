@@ -15,3 +15,11 @@ https://github.com/ArecheBrian/SmartBanking/assets/121470677/17b3b1d6-f9fe-4446-
 <br/>
 <h2>inicializar la app</h2>
 
+1. Clone the repo
+   ```sh
+   git clone https://github.com/ArecheBrian/SmartBanking.git
+   ```
+3. Install NPM packages
+   ```sh
+   ionic serve
+   ```
